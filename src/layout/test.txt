@@ -1,0 +1,80 @@
+<div style={{with : '100%'}}>
+            <Grid sx={{ flexGrow: 1 }} container spacing={2}>
+                <Grid item xs={6} md={6}>
+                    <Breadcrumb />
+                </Grid>
+                <Grid item xs={6} md={6}>
+                    <Button variant="contained" startIcon={<RefreshIcon />} sx={{ float : 'right', textTransform : 'inherit'}}>
+                        Refresh
+                    </Button>
+                </Grid>
+            </Grid> 
+
+            <Grid sx={{ flexGrow: 1, marginTop : '20px' }} container spacing={2}>
+                <Grid item xs={12} md={8} mdOffset={2}>
+                    <div style={{width : "100%"}}>
+                        <Grid sx={{ flexGrow: 1 }} container spacing={6}>
+                            <Grid item xs={12} sm={6} md={6}>
+                                 <Card variant="outlined" sx={{ minWidth : '250px', width : 'auto' }}>
+                                    <CardContent>
+                                        <Typography  component="div" sx={{ textAlign : 'center'}}>
+                                            <Typography  component="span">
+                                                InvOps
+                                            </Typography>
+                                            <Typography sx={{ float : 'right'}}  component="span">
+                                                <CheckCircleIcon sx={{ color : "green", fontSize : "2rem"}} />
+                                            </Typography>
+                                        </Typography> 
+                                    </CardContent> 
+                                </Card>
+                            </Grid>
+                            <Grid item xs={12} sm={6} md={6}>
+                                 <Card variant="outlined" sx={{ minWidth : '250px', width : 'auto' }}>
+                                    <CardContent>
+                                        <Typography  component="div" sx={{ textAlign : 'center'}}>
+                                            <Typography  component="span">
+                                                InvOps
+                                            </Typography>
+                                            <Typography sx={{ float : 'right'}}  component="span">
+                                                <CheckCircleIcon sx={{ color : "green", fontSize : "2rem"}} />
+                                            </Typography>
+                                        </Typography> 
+                                    </CardContent> 
+                                </Card>
+                            </Grid>
+                            <Grid item xs={12} sm={6} md={6}>
+                                 <Card variant="outlined" sx={{ minWidth : '250px', width : 'auto' }}>
+                                    <CardContent>
+                                        <Typography  component="div" sx={{ textAlign : 'center'}}>
+                                            <Typography  component="span">
+                                                InvOps
+                                            </Typography>
+                                            <Typography sx={{ float : 'right'}}  component="span">
+                                                <InfoIcon sx={{ color : "#da9817", fontSize : "2rem"}} />
+                                            </Typography>
+                                        </Typography> 
+                                    </CardContent> 
+                                </Card>
+                            </Grid>
+                            <Grid item xs={12} sm={6} md={6}>
+                                 <Card variant="outlined" sx={{ minWidth : '250px', width : 'auto' }}>
+                                    <CardContent>
+                                        <Typography  component="div" sx={{ textAlign : 'center'}}>
+                                            <Typography  component="span">
+                                                InvOps
+                                            </Typography>
+                                            <Typography sx={{ float : 'right'}}  component="span">
+                                                <CancelIcon sx={{ color : "red", fontSize : "2rem"}} />
+                                            </Typography>
+                                        </Typography> 
+                                    </CardContent> 
+                                </Card>
+                            </Grid>
+                        </Grid>                        
+                    </div>
+                    
+                </Grid>
+            </Grid> 
+
+            
+        </div>
